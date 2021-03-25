@@ -1,0 +1,216 @@
+/* CSS files add styling rules to your content */
+
+/* --- Reset Styles --- */
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Custom Megstrap Styling --- */
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* --- Base-Level Styling --- */
+
+input[type='range'] {
+  overflow: hidden;
+  width: 80px;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 10px;
+  -webkit-appearance: none;
+  height: 10px;
+  cursor: ew-resize;
+  background: #434343;
+  box-shadow: -80px 0 0 80px #43e5f7;
+}
+ 
+
+
+
+
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  background: #fff;
+  color: white; 
+  background: url(https://cdn.glitch.com/4db20f19-8988-41e5-b596-3924e1bbce59%2Fdebstersgames.jpg?v=1616638676525) no-repeat center center fixed; 
+  -webkit-background-size: cover;;
+}
+.wrapper {
+  min-height: 100%;
+  margin: 1.6rem auto;
+  padding: 2.25%;
+  width: 85%;
+  text-align: center;
+}
+.header {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+  font-style: italic;
+}
+
+p {
+    margin: 1rem;
+}
+
+/* --- Button Styling --- */
+button {
+  padding: 10px;
+  border-radius: 32px;
+  box-shadow: -6px -6px 10px rgb(255 255 255 / 80%), 6px 6px 10px rgb(0 0 0 / 20%);
+}
+
+button:hover {
+  box-shadow: inset -4px -4px 8px rgb(255 255 255 / 50%), inset 8px 8px 16px rgb(0 0 0 / 10%);
+}
+
+button:focus {
+    outline: none;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+  margin-bottom: 25px;
+}
+
+button#startBtn {
+    border-style: solid;
+    text-transform: uppercase;
+    border-color: #ffffff;
+    margin-top: 2rem;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    color: #302b70;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 320px;
+    padding: 14px;
+    background-color: #f9fcfd;
+}
+button#startBtn:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+button#stopBtn {
+    border-style: solid;
+    text-transform: uppercase;
+    border-color: #ffffff;
+    margin-top: 2rem;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    color: red;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 320px;
+    padding: 14px;
+    background-color: #f9fcfd;
+}
+button#stopBtn:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+  border-color: lightgreen;
+  background-image: linear-gradient(15deg, #3ee577 0%, #42fcdb 100%);
+}
+#button1:active, #button1.lit {
+  background:green;
+  background-image: linear-gradient(315deg, #13547a 0%, #80d0c7 74%);
+}
+
+#button2 {
+  background: lightblue;
+  border-color: lightblue;
+  background-image: linear-gradient(15deg, #63a4ff 0%, #83eaf1 100%);
+}
+#button2:active, #button2.lit {
+  background:blue;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+#button3 {
+  background: pink;
+  border-color: pink;
+  background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+}
+#button3:active, #button3.lit {
+  background:red;
+  background-image: linear-gradient(15deg, #f9c5d1 0%, #9795ef 100%);
+}
+
+#button4 {
+  background: lightyellow;
+  border-color: lightyellow;
+  background-image: linear-gradient(15deg, #f39f86 0%, #f9d976 100%);
+}
+#button4:active, #button4.lit {
+  background:yellow;
+  background-image: linear-gradient(315deg, #fffcf9 0%, #ffd166 74%);
+}
+#button5 {
+  background: cornflowerblue;
+  border-color: cornflowerblue;
+  background-image: linear-gradient(15deg, #6617cb 0%, #cb218e 100%);
+}
+#button5:active, #button5.lit {
+  background:dodgerblue;
+  background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%);
+}
+
+#button6 {
+  background: cadetblue;
+  border-color: cadetblue;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+#button6:active, #button6.lit {
+  background:aliceblue;
+  background-image: linear-gradient(15deg, #27f5f5 0%, #0cbaba 100%);
+}
+
+#button7 {
+  background: red;
+  border-color: red;
+  background-image: linear-gradient(147deg, #d82020 0%, #c59169 74%);
+}
+#button7:active, #button7.lit {
+  background:crimson;
+  background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+}
+
+#button8 {
+  background: cornsilk;
+  border-color: cornsilk;
+  background-image: linear-gradient(135deg, #fff8dc 0%, #ffeb9c 70%);
+}
+#button8:active, #button8.lit {
+  background:floralwhite;
+  background-image: linear-gradient(15deg, #f7de7b 0%, #e0bb28 100%);
+}
